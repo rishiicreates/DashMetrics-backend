@@ -5,13 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step for backend'"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.3",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^7.0.3",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5",
     "natural": "^5.2.3"
   },
   "devDependencies": {
